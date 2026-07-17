@@ -37,32 +37,43 @@ align-items:center;
 .logo{
 display:flex;
 align-items:center;
-gap:12px;
-color:#fff;
+gap:15px;
 }
 
 .logo img{
-width:70px;
-height:70px;
+width:60px;
+height:60px;
 border-radius:50%;
 background:#fff;
-padding:5px;
+padding:4px;
 }
 
 .logo h2{
+font-size:28px;
 color:#D4AF37;
+margin:0;
+line-height:1;
 }
 
 .logo small{
+display:block;
+font-size:16px;
 color:#fff;
 }
 
+nav{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+}
+
 nav a{
-text-decoration:none;
-margin-left:20px;
 color:#fff;
+text-decoration:none;
 font-weight:600;
-transition:.3s;
+font-size:17px;
+transition:0.3s;
 }
 
 nav a:hover{
