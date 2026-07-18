@@ -20,7 +20,7 @@ header{
     align-items:center;
     padding:20px 8%;
     background:#000;
-    border-bottom:2px solid #d4af37;
+    border-bottom:2px solid #c9a227;
 }
 
 
@@ -39,7 +39,7 @@ header{
 
 
 .logo-area h1{
-    color:#d4af37;
+    color:#c9a227;
     font-size:22px;
 }
 
@@ -54,7 +54,7 @@ nav a{
 
 
 nav a:hover{
-    color:#d4af37;
+    color:#c9a227;
 }
 
 
@@ -89,7 +89,7 @@ nav a:hover{
 .hero h2{
 
     font-size:45px;
-    color:#d4af37;
+    color:#c9a227;
     margin-bottom:20px;
 
 }
@@ -138,7 +138,7 @@ text-align:center;
 
 .about-preview h2{
 
-color:#d4af37;
+color:#c9a227;
 font-size:32px;
 margin-bottom:20px;
 
@@ -167,7 +167,7 @@ text-align:center;
 
 .services h2{
 
-color:#d4af37;
+color:#c9a227;
 font-size:32px;
 margin-bottom:40px;
 
@@ -208,7 +208,7 @@ border-radius:8px;
 .card h3{
 
 margin:20px 0;
-color:#d4af37;
+color:#c9a227;
 
 }
 
@@ -234,7 +234,7 @@ text-align:center;
 
 .cta h2{
 
-color:#d4af37;
+color:#c9a227;
 font-size:35px;
 
 }
