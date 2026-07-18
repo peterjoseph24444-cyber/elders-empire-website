@@ -81,15 +81,13 @@ color:#D4AF37;
 }
 
 .hero{
-height:100vh;
-background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');
-background-size:cover;
-background-position:center;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
+    min-height:100vh;
+    background:#111;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:120px 20px 80px;
 }
 
 .overlay{
@@ -157,26 +155,29 @@ margin:auto;
 }
 
 #products li{
-background:#fff;
-margin:15px 0;
-padding:18px;
-border-left:6px solid #D4AF37;
-list-style:none;
-border-radius:10px;
-box-shadow:0 5px
-  .service img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
+    background:#fff;
+    margin:15px 0;
+    padding:18px;
+    border-left:6px solid #D4AF37;
+    list-style:none;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
-#home img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
 }
-img[src="home.jpg"] {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+
+#home img{
+    width:100%;
+    max-width:700px;
+    height:auto;
+    display:block;
+    margin:30px auto;
+    border-radius:15px;
 }
+
