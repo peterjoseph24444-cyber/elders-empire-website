@@ -81,7 +81,9 @@ color:#D4AF37;
 }
 
 .hero{
-    min-height:100vh;
+    .hero{
+    min-height:70vh;
+    }
     background:#111;
     display:flex;
     justify-content:center;
@@ -124,7 +126,7 @@ background:#fff;
 }
 
 section{
-padding:100px 0;
+    padding:60px 0;
 }
 
 section h2{
@@ -180,7 +182,7 @@ margin:auto;
     max-width:700px;
     height:auto;
     display:block;
-    margin:30px auto;
+    margin:15px auto;
     border-radius:15px;
 }
 
