@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Elders Empire Unique Enterprise</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elders Empire Unique Enterprise - Education, cleaning products, hygiene solutions and catering services in Abuja.">
+  <title>Elders Empire Unique Enterprise</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <div class="logo-area">
-    <img src="logo.png" alt="Logo">
-    <h1>Elders Empire Unique Enterprise</h1>
-  </div>
-  <nav>
+<header class="site-header">
+  <a class="brand" href="#home">
+    <img src="logo.png" alt="Elders Empire Unique Enterprise logo">
+    <div>
+      <strong>Elders Empire</strong>
+      <span>Unique Enterprise</span>
+    </div>
+  </a>
+
+  <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+  <nav id="main-nav">
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#services">Services</a>
@@ -23,141 +30,272 @@
   </nav>
 </header>
 
-<section id="home" class="hero">
+<main id="home">
 
-    <div class="hero-content">
-        <h2>Empowering Education.<br>Delivering Hygiene Solutions.</h2>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">QUALITY • EDUCATION • HYGIENE • SERVICE</span>
+      <h1>Building Skills.<br><span>Creating Better Spaces.</span></h1>
+      <p>
+        Elders Empire Unique Enterprise provides educational training,
+        professional cleaning products and hygiene solutions, and reliable
+        catering services for homes, schools and organisations.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#services">Explore Our Services</a>
+        <a class="btn btn-outline" href="#contact">Talk To Us</a>
+      </div>
 
+      <div class="quick-stats">
+        <div><b>01</b><span>Education</span></div>
+        <div><b>02</b><span>Hygiene</span></div>
+        <div><b>03</b><span>Catering</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="gold-glow"></div>
+      <img src="home.jpg" alt="Elders Empire services">
+      <div class="hero-badge">
+        <small>WE DELIVER</small>
+        <strong>QUALITY</strong>
+        <span>with purpose</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMO -->
+  <section class="promo">
+    <div>
+      <span class="eyebrow light">FEATURED PROGRAMME</span>
+      <h2>Learn. Speak. Shine.</h2>
+      <p>Explore our phonics and elocution training designed to build stronger readers, clearer speakers and greater confidence.</p>
+      <a class="btn btn-white" href="#services">Discover Education Services</a>
+    </div>
+    <img src="summer-showcase.png" alt="Summer Phonics Clinic">
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="section-heading">
+      <span class="eyebrow">WHO WE ARE</span>
+      <h2>About <span>Elders Empire</span></h2>
+      <p>We bring education, hygiene and service together to create practical solutions that make everyday life better.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-story">
+        <h3>Our Story</h3>
         <p>
-            We specialize in Phonics & Elocution Training,
-            Premium Cleaning Products, Commercial Hygiene Solutions
-            and Catering Contract Services.
+          Elders Empire Unique Enterprise is a growing Nigerian enterprise
+          focused on quality educational training, household and commercial
+          cleaning products, hygiene solutions and catering contract services.
         </p>
+        <p>
+          We believe good service should be useful, dependable and delivered
+          with professionalism. Our goal is to serve children, families,
+          schools, businesses and organisations with solutions they can trust.
+        </p>
+      </div>
 
-        <a href="#contact" class="btn">Contact Us</a>
+      <div class="value-card">
+        <div class="icon">🎯</div>
+        <h3>Our Mission</h3>
+        <p>To provide practical, affordable and quality services that create value for our customers and communities.</p>
+      </div>
+
+      <div class="value-card dark">
+        <div class="icon">👁️</div>
+        <h3>Our Vision</h3>
+        <p>To build a trusted enterprise recognised for excellence in education, hygiene solutions and service delivery.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="icon">⭐</div>
+        <h3>Our Values</h3>
+        <p>Quality, integrity, innovation, reliability, professionalism and customer satisfaction.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section services">
+    <div class="section-heading">
+      <span class="eyebrow">WHAT WE DO</span>
+      <h2>Our <span>Services</span></h2>
+      <p>Explore our major service areas and find the solution that fits your needs.</p>
     </div>
 
-    <div class="hero-image">
-        <img src="home.jpg" alt="Welcome to Elders Empire">
+    <div class="service-grid">
+      <article class="service-card featured">
+        <div class="service-image"><img src="phonics.jpg" alt="Phonics and elocution training"></div>
+        <div class="service-body">
+          <span class="number">01</span>
+          <h3>Phonics & Elocution Training</h3>
+          <p>Fun, practical learning experiences that support reading, pronunciation, speech development and confident communication.</p>
+          <ul>
+            <li>Phonics & reading skills</li>
+            <li>Elocution and pronunciation</li>
+            <li>Public speaking and confidence</li>
+            <li>Educational activities and games</li>
+          </ul>
+          <a href="#contact" class="text-link">Enquire about training →</a>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-image"><img src="cleaning.jpg" alt="Cleaning and hygiene solutions"></div>
+        <div class="service-body">
+          <span class="number">02</span>
+          <h3>Cleaning & Hygiene Solutions</h3>
+          <p>Cleaning products and tailored hygiene solutions for households, schools, offices and commercial environments.</p>
+          <ul>
+            <li>Liquid soaps</li>
+            <li>Disinfectants</li>
+            <li>Bleaching solutions</li>
+            <li>Commercial hygiene solutions</li>
+          </ul>
+          <a href="#products" class="text-link">View products →</a>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div class="service-image"><img src="catering.jpg" alt="Professional catering services"></div>
+        <div class="service-body">
+          <span class="number">03</span>
+          <h3>Catering Contract Services</h3>
+          <p>Reliable catering support for events, organisations and contract-based food service requirements.</p>
+          <ul>
+            <li>Event catering</li>
+            <li>Organisation contracts</li>
+            <li>Food service support</li>
+            <li>Professional delivery</li>
+          </ul>
+          <a href="#contact" class="text-link">Discuss your needs →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="section products">
+    <div class="section-heading">
+      <span class="eyebrow">CLEAN • FRESH • PROTECTED</span>
+      <h2>Featured <span>Products</span></h2>
+      <p>Quality cleaning products for everyday household and commercial use.</p>
     </div>
 
-</section>
+    <div class="product-grid">
+      <article class="product-card">
+        <img src="dishwashing-soap.jpg" alt="Dishwashing soap">
+        <div><span>HYGIENE</span><h3>Dishwashing Soap</h3><p>For effective everyday dish and kitchen cleaning.</p></div>
+      </article>
+      <article class="product-card">
+        <img src="disinfectant.jpg" alt="Disinfectant">
+        <div><span>PROTECTION</span><h3>Disinfectant</h3><p>Cleaning and hygiene support for homes and workplaces.</p></div>
+      </article>
+      <article class="product-card">
+        <img src="bleaching-solution.jpg" alt="Bleaching solution">
+        <div><span>CLEANING</span><h3>Bleaching Solution</h3><p>Practical cleaning support for suitable household applications.</p></div>
+      </article>
+    </div>
 
-<section id="about">
-<h2>About Us</h2>
+    <div class="center"><a class="btn btn-gold" href="#contact">Ask About Our Products</a></div>
+  </section>
 
-<p>
-Elders Empire Unique Enterprise is committed to delivering quality educational training,
-premium cleaning products, commercial hygiene solutions and reliable catering services.
-We combine innovation, excellence and customer satisfaction to provide solutions for homes,
-schools and businesses.
-</p>
+  <!-- WHY US -->
+  <section class="why-us">
+    <div class="section-heading light-heading">
+      <span class="eyebrow light">WHY CHOOSE US</span>
+      <h2>Small Details. <span>Big Difference.</span></h2>
+    </div>
+    <div class="why-grid">
+      <div><b>✓</b><h3>Quality</h3><p>We focus on dependable products and useful services.</p></div>
+      <div><b>✓</b><h3>Professionalism</h3><p>We value clear communication and responsible service.</p></div>
+      <div><b>✓</b><h3>Innovation</h3><p>We keep improving how we teach, serve and deliver.</p></div>
+      <div><b>✓</b><h3>Customer Care</h3><p>Your needs remain at the centre of what we do.</p></div>
+    </div>
+  </section>
 
-</section>
+  <!-- GALLERY -->
+  <section id="gallery" class="section gallery">
+    <div class="section-heading">
+      <span class="eyebrow">OUR WORK</span>
+      <h2>From Our <span>Gallery</span></h2>
+    </div>
+    <div class="gallery-grid">
+      <img src="gallery1.jpg" alt="Phonics and elocution training">
+      <img src="gallery2.jpg" alt="Cleaning products">
+      <img src="gallery3.jpg" alt="Catering services">
+      <img src="summer-class.jpg" alt="Summer phonics class">
+    </div>
+  </section>
 
-<section id="services">
-<h2>Our Services</h2>
-<div class="cards">
-<div class="card"><img src="phonics.jpg"><h3>Phonics & Elocution</h3></div>
-<div class="card"><img src="cleaning.jpg"><h3>Cleaning Solutions</h3></div>
-<div class="card"><img src="catering.jpg"><h3>Catering</h3></div>
-</div>
-</section>
+  <!-- CTA -->
+  <section class="cta">
+    <div>
+      <span class="eyebrow light">LET'S WORK TOGETHER</span>
+      <h2>Ready to learn, grow or work with us?</h2>
+      <p>Contact Elders Empire Unique Enterprise today.</p>
+    </div>
+    <a class="btn btn-white" href="#contact">Contact Us</a>
+  </section>
 
-<section id="products">
-<h2>Our Products</h2>
-<div class="cards">
-<div class="card"><img src="dishwashing-soap.jpg"><h3>Dishwashing Soap</h3></div>
-<div class="card"><img src="disinfectant.jpg"><h3>Disinfectant</h3></div>
-<div class="card"><img src="bleaching-solution.jpg"><h3>Bleaching Solution</h3></div>
-</div>
-</section>
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="section-heading">
+      <span class="eyebrow">GET IN TOUCH</span>
+      <h2>Let's <span>Talk</span></h2>
+      <p>We would be happy to hear from you.</p>
+    </div>
 
-<section id="gallery" class="gallery-section">
-<h2>Gallery</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div><b>📍 Location</b><p>Army Housing Estate, Kurudu, FCT Abuja.</p></div>
+        <div><b>📞 Phone</b><p>+234 706 491 1987<br>+234 906 786 6485</p></div>
+        <div><b>✉ Email</b><p>eeuenterprise@gmail.com</p></div>
+      </div>
+      <div class="contact-box">
+        <h3>Start a conversation</h3>
+        <p>For training registration, products, catering enquiries or general information, send us a message.</p>
+        <a class="btn btn-gold" href="https://wa.me/2347064911987">Chat on WhatsApp</a>
+        <a class="btn btn-dark" href="tel:+2347064911987">Call Us</a>
+      </div>
+    </div>
+  </section>
 
-<div class="cards">
+</main>
 
-<div class="card">
-<img src="gallery1.jpg" alt="Phonics and Elocution Training">
+<footer>
+  <div class="footer-brand">
+    <img src="logo.png" alt="Elders Empire logo">
+    <div><strong>Elders Empire Unique Enterprise</strong><small>Education • Hygiene • Catering</small></div>
+  </div>
+  <p>© 2026 Elders Empire Unique Enterprise. All rights reserved.</p>
+</footer>
 
-<h3>Interactive Phonics & Elocution Training Sessions</h3>
+<a class="whatsapp-float" href="https://wa.me/2347064911987" aria-label="Chat on WhatsApp">💬</a>
 
-<p>
-At Elders Empire Unique Enterprise, we provide professional Phonics and Elocution training designed to help learners develop strong reading skills, accurate pronunciation, confident speaking abilities, and effective communication skills.
-</p>
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('#main-nav');
 
-<ul>
-<li>Phonics Foundation & Reading Skills</li>
-<li>Pronunciation Improvement</li>
-<li>Speech Development & Confidence Building</li>
-<li>Elocution and Public Speaking Skills</li>
-<li>Learning Support for Children and Adults</li>
-</ul>
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+    toggle.textContent = open ? '✕' : '☰';
+  });
 
-</div>
+  document.querySelectorAll('#main-nav a').forEach(link => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.textContent = '☰';
+    });
+  });
+</script>
 
-
-<div class="card">
-<img src="gallery2.jpg" alt="Cleaning Products">
-<h3>Premium Cleaning Products</h3>
-
-<p>
-Quality household and commercial hygiene solutions designed for effective cleaning and protection.
-</p>
-
-</div>
-
-
-<div class="card">
-<img src="gallery3.jpg" alt="Catering Services">
-<h3>Professional Catering Services</h3>
-
-<p>
-Reliable catering solutions for events, organizations, and contract services.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-
-<section id="contact">
-<h2>Contact Us</h2>
-
-<p>
-📍 Army Housing Estate, Kurudu<br>
-FCT, Abuja.
-</p>
-
-<p>
-📞 Phone: +234 706 491 1987
-</p>
-
-<p>
-📞 Alternative: +234 906 786 6485
-</p>
-
-<p>
-✉ Email: eeuenterprise@gmail.com
-</p>
-
-<a href="https://wa.me/2347064911987" class="btn">
-Chat on WhatsApp
-</a>
-
-</section>
-
-<footer>© 2026 Elders Empire Unique Enterprise</footer>
-
-<div class="ai-assistant">
-    🤖
-</div>
-<a href="https://wa.me/2347064911987" class="whatsapp-float">
-    💬
-</a>
-<script src="script.js"></script>
 </body>
-</html>
+        </html>
+                     
